@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Creative - Start Bootstrap Theme</title>
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="js/about.js"></script>
+    </head>
+    <body id="page-top"></body>
+
+        <header class="masthead">
+            <div class="container py-4 px-lg-5">
+                <div class="row">
+                    <div class="col-sm-4 fs-4 text"><img src="images/rsz_1logo.png"></div>
+                    <div class="col-sm-8 text-end">Captivate Interiors</div>                                                                
+                 </div>
+            </div>
+        </header>
+
+        <section class="page-section nav-container">
+            <div class="container-fluid bg-light">
+                <nav class="navbar navbar-expand-lg">A
+                    <div class="container">
+                        <a class="nav-item nav-link" href="index.html">Home</a>
+                        <a class="nav-item nav-link" href="about.html">About Us</a>
+                        <a class="nav-item nav-link" href="shop.html">Shop</a>
+                        <a class="nav-item nav-link active" href="contact.html">Contact Us</a>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <section class="page-section projects-container">
+            <div class="container text-start">
+                <div class="row text-center mb-5 mt-3">
+                    <h3>About Us</h3>
+                    <div class="divider py-1 mt-2 bg-light"></div>
+                </div>
+                <div class="row">
+                    <p>We are Captivate Interiors established in year 2015.
+                    <br />Specialising in all aspects of Interior Design, we undertake design jobs of all sizes; managing everything from one-room makeovers to full scale renovations.
+                    <br />Professionally, we believe that everyone stands to benefit from well-designed spaces, it is 100% possible for style and function to work hand-in-hand, and you can never have too many cushions.
+                    <br />Personally; we love hot summer nights on the water, singing in the car and bottomless coffee on tap.
+                    <br />We love to talk and are excited to hear of your design projects!
+                    <br />Get in touch and let’s grab that coffee.</p>
+                </div>
+                <div class="row">
+                    <h2>Our Staff</h2>
+                    <hr />
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div id="ceo-pic" class="col-4">
+                            <img src="images/team1.jpg"><br /><br />
+                            <button type="button" onclick="seeMDPicture()" class="btn btn-info">See Our MD</button>
+                        </div>
+                        <div id="md-pic" class="col-4 d-none">
+                            <img src="images/team7.jpg"><br /><br />
+                            <button type="button" onclick="seeCEOPicture()" class="btn btn-info">See Our CEO</button>
+                        </div>
+                        <div id="ceo-message" class="col-8">
+                            <h5>Rebecca Johnston (CEO)</h5>
+                            <p class="fw-bold">A highly versatile interior designer accepting projects in both residential and commercial design, Rebecca is known for creating casually elegant homes across a broad range of styles that are warm, comfortable, and very livable.
+                                <br >
+                                After a 10-year career in corporate accounting at Baxter International, and about that many years as a full-time mom to three amazing people, Rebecca headed back to school to pursue her love for crafting beautiful and livable interiors. With the underlying belief that the spaces we spend our time in affect our outlook on the world, Rebecca launched Captivate Interiors to design spaces that leave her clients renewed, energized, and inspired. Rebecca looks to her clients for inspiration as each person, each family, each business has a unique story to tell. It is our job to hear that story and expand the melody.
+                                </p>
+                            <p><button onclick="seeMDMessage()" type="button" class="btn btn-info">See Our MD's Message</button></p>
+                        </div>
+                        <div id="md-message" class="col-8 d-none">
+                            <h5>Robert Paton (MD)</h5>
+                            <p class="fw-bold">A qualified interior designer with significant architectural experience, Rob has over 20 years’ experience in the industry. With a particular interest in conservation, contemporary interiors & lighting design, Rob’s gained a breadth of experience resulting in the completion of many high-quality projects over a wide range of sectors.
+                            <br />
+                            Highly skilled in the area, he specialises in shopfitting and cabinet making, confidently taking initial concept sketches through to finished production items.
+                            <br />
+                            Continually reviewing and improving processes he ensure Captivate Interiors order admin and logistics services run like clockwork, while shipping products globally to meet project demands.
+                            </p>
+                            <p><button type="button" onclick="seeCEOMessage()" class="btn btn-info">See Our CEO's Message</button></p>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+
+                <div class="row">
+                    <div class="row" onmouseover="showButton(this)" onmouseleave="hideButton(this)">
+                        <button type="button" onclick="hideSection(this)" class="btn btn-info btn-block d-none">Hide Staff</button>
+                        <div class="col-4 py-2"><img src="images/team2.jpg"></div>
+                        <div class="col-8 py-2">
+                            <h5>Ali Johnston (Designe Lead)</h5>
+                            <p class="fw-bold">An NCIDQ licensed interior Designer, Ali unintentionally followed in Rebecca’s footsteps pursuing her love for the arts, engineering, and community development with a professional degree from the University of Oregon School of Architecture and Environment.
+                                <br />
+                                Working remotely (before that became a thing) Ali was an integral member of the RJI team during her college years. She began her professional career in the commercial design world working for LPA in San Diego, and Oz Architecture in Denver, focusing on education and public space design. Missing the direct collaboration between design and construction, Ali made the move back to R Johnston Interiors. Heading up our growing Denver design studio, Ali’s knowledge of commercial and residential construction and design, along with her passion for collaboration and deep-thinking, bring value to every project she leads.
+                                </p>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row" onmouseover="showButton(this)" onmouseleave="hideButton(this)">
+                        <button type="button" onclick="hideSection(this)" class="btn btn-info btn-block d-none">Hide Staff</button>
+                        <div class="col-4 py-2"><img src="images/team3.jpg"></div>
+                        <div class="col-8 py-2">
+                            <h5>Natasha Brook (Senior Designer)</h5>
+                            <p class="fw-bold">After extensive training in construction and design and having worked in the field for over a decade, I founded Captivate Interiors in 2019. <br />
+                                My design philosophy is simple — I believe a home is your sanctuary and should be comfortable and cozy but also carefully curated. My approach to design always begins with an ode to the architecture of the space, the personality and needs of my client infused with my personal aesthetics. I like to work with clean modern lines, layered with texture and color with a mix of midcentury classics and vintage pieces. I always try to bring in natural elements to achieve some earthiness and calm that I believe every home should have.
+                                <br />
+                                My work is influenced by my Indian roots and the various cities that I have worked in and traveled to across the globe. I am deeply motivated to support artisans in my projects, finding value and beauty in unique & hand-made things.
+                                </p>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row" onmouseover="showButton(this)" onmouseleave="hideButton(this)">
+                        <button type="button" onclick="hideSection(this)" class="btn btn-info btn-block d-none">Hide Staff</button>
+                        <div class="col-4 py-2"><img src="images/team4.jpg"></div>
+                        <div class="col-8 py-2">
+                            <h5>Arielle Weedman (Senior Designer)</h5>
+                            <p class="fw-bold">Since 2005, Arielle has worked closely with entrepreneurs and homeowners alike to design, plan and oversee the execution of their interior renovation projects. <br />
+                                An artist at heart, Arielle is meticulous about creating designs that are relevant, grounded and authentic to each client. She’s an exceptional listener and project leader who utilizes a direct and respectful style of communication.
+                                <br />
+                                Her cool-headed demeanor and ability to think outside the box ensure that projects stay on schedule and remain true to the client’s vision. Arielle is a proud Portland native.</p>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row" onmouseover="showButton(this)" onmouseleave="hideButton(this)">
+                        <button type="button" onclick="hideSection(this)" class="btn btn-info btn-block d-none">Hide Staff</button>
+                        <div class="col-4 py-2"><img src="images/team5.jpg"></div>
+                        <div class="col-8 py-2">
+                            <h5>Travis Weedman (Designer)</h5>
+                            <p class="fw-bold">Travis is a visionary designer, storyteller and creative thinker who thrives on accepting new challenges. <br />
+                                Our clients benefit from his unflagging devotion to fresh, functional and inspirational designs. He has a unique ability to bring focus to each project with a straightforward, conceptual approach.
+                                <br />Travis is also resourcefully hands-on; he’s frequently seen on-site getting his hands dirty with every aspect of a project. Though Portland is home, he grew up alongside the mighty Mullet River in Plymouth, Wisconsin.
+                                <br />
+                                Natasha and her architect partner, plus their three animals, live in Downtown Denver. They spend their free time exploring the beautiful state of Colorado on their mountain bikes and snowboards. They share a deep passion for the urban environment and are actively involved in city programs to make downtown a better place to live, work and play.</p>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row" onmouseover="showButton(this)" onmouseleave="hideButton(this)">
+                        <button type="button" onclick="hideSection(this)" class="btn btn-info btn-block d-none">Hide Staff</button>
+                        <div class="col-4 py-2"><img src="images/team6.jpg"></div>
+                        <div class="col-8 py-2">
+                            <h5>Kate O'Connor (Designer)</h5>
+                            <p class="fw-bold">For Designer Kate O'Connor, interior design is about more than turning drab into fab (although she certainly is fabulous!); it's about making lives better.
+                                <br />
+                                With a knack for tying together colours, textures and finishes to create ambiance, and incredible spacial conception, Kate has been helping people find "The Look" for well over ten years. Her vast experience enables her to work with people to find pieces and looks that reflect them, and she is expert at creating spaces that make people comfortable and happy in their own homes.
+                                <br />
+                                With a degree in Fine Arts from Ilam, Kate has worked on everything from multi-million dollar fitouts to simple off-the-shelf solutions for bach owners. For those who are time poor or who don't know what pieces to buy, Kate can be a godsend. Find out how she can help turn your property into an oasis you'll never want to leave by getting in touch with us today.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-light mt-5 py-4">
+            <div class="container social-btns text-center">
+                <a type="button" class="btn-floating btn-lg btn-fb"><i class="bi-facebook"></i></a>
+                <a type="button" class="btn-floating btn-lg btn-email"><i class="bi-linkedin"></i></a>
+                <a type="button" class="btn-floating btn-lg btn-git"><i class="bi-instagram"></i></i></a>
+                <a type="button" class="btn-floating btn-lg btn-tw"><i class="bi-twitter"></i></a>
+            </div>
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - The Interior Design Company</div></div>
+        </footer>
+    </body>
+</html>
