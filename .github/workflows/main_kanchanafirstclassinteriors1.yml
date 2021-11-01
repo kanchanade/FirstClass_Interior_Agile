@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'KanchanaFirstClassInteriors1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FDFFF908F3CE4D058DADFBC774911235 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FA3C11ED419348FE9C6CF2451674DD78 }}
           package: .
